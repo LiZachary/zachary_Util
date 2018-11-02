@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Util</string>
+
+
+    <!--bottom-->
+    <string name="home">首页</string>
+    <string name="order">中间</string>
+    <string name="send">最右</string>
+
+
+    <!--left-->
+    <string name="personqq">本人QQ:1003077897</string>
+
+
+    <!--toorbar内容-->
+    <string name="toorbar_backhome">回到首页</string>
+    <string name="toorbar_scale">扫一扫</string>
+
+    <!--空view重试按钮-->
+    <string name="empty_rebtn">重试</string>
+
+    <!--ViewPage指示器-->
+    <array name="FragmentTwo_viewpage_titles">
+        <item>全部</item>
+        <item>已签收</item>
+        <item>未签收</item>
+    </array>
+
+    <array name="FragmentThree_viewpage_titles">
+        <item>网点</item>
+        <item>订单</item>
+        <item>客服</item>
+    </array>
+
+
+    <!--setting-->
+    <string name="clear_imagecache">清除缓存</string>
+    <string name="cachesize">0.0M</string>
+
+
+    <string name="suggestback">zachary</string>
+    <string name="license">Be yourself</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
