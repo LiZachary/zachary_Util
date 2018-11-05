@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Zachary on 2017-04-17.
+ * Created by Zachary on 2018-04-17.
  * 用来处理Gson转型泛型的时候报错LinkTreeMap不能转换为list<E>
  */
 public class  Gson_ErrorLinkTreeMap_Helper<E> {

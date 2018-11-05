@@ -5,7 +5,7 @@ import com.bigkoo.pickerview.model.IPickerViewData;
 import java.util.List;
 
 /**
- * @date: 2017/3/16 15:36
+ * @date: 2018/10/16 15:36
  */
 
 public class CityPickerBean  implements IPickerViewData{

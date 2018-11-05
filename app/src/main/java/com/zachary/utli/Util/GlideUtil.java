@@ -7,8 +7,6 @@ import android.text.TextUtils;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.cache.ExternalCacheDiskCacheFactory;
 import com.bumptech.glide.load.engine.cache.InternalCacheDiskCacheFactory;
-import com.zachary.utli.Activity.setting.data.CacheEvent;
-import com.zachary.utli.BaseEventBus.EventBusUtil;
 
 import java.io.File;
 import java.math.BigDecimal;
@@ -38,7 +36,7 @@ public class GlideUtil {
                     public void run() {
                         Glide.get(context).clearDiskCache();
                         // To SettingActivity  缓存清理完成
-                        EventBusUtil.postSync(new CacheEvent(true,GlideUtil.this));
+                        //EventBusUtil.postSync(new CacheEvent(true,GlideUtil.this));
                     }
                 }).start();
             } else {

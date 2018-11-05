@@ -5,14 +5,10 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.zachary.utli.Activity.setting.data.CacheEvent;
 import com.zachary.utli.BaseActivity.ToolBarActivity;
 import com.zachary.utli.BaseEventBus.EventBusUtil;
 import com.zachary.utli.R;
 import com.zachary.utli.Util.GlideUtil;
-
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -41,22 +37,14 @@ public class SettingActivity extends ToolBarActivity {
         return R.layout.activity_setting;
     }
 
-    /**
-     * From: GlideUtil
-     */
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onEventCache(CacheEvent response) {
-        if (response.infinish) {
-            String size=GlideUtil.getInstance().getCacheSize(SettingActivity.this);
-            tvImagecachesize.setText(size);
-        }
-    }
-
     @OnClick({R.id.ll_clear_imagecache})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.ll_clear_imagecache:
                 GlideUtil.getInstance().clearImageAllCache(SettingActivity.this);
+                //修改，设置缓存
+                String size=GlideUtil.getInstance().getCacheSize(SettingActivity.this);
+                tvImagecachesize.setText(size);
                 break;
         }
     }

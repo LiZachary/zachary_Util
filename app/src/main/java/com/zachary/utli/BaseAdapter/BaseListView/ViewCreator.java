@@ -3,7 +3,7 @@ package com.zachary.utli.BaseAdapter.BaseListView;
 import android.view.ViewGroup;
 
 /**
- * Created by Zachary on 2017-04-12.
+ * Created by Zachary on 2018-04-12.
  */
 public interface ViewCreator<T, H extends BaseListAdapter.ViewHolder> {
 

@@ -7,7 +7,7 @@ import android.graphics.drawable.Drawable;
 import com.zachary.utli.Application.MyApplication;
 
 /**
- * Created by Zachary on 2017-04-11.
+ * Created by Zachary on 2018-04-11.
  */
 public class ResourceUtil {
 

@@ -8,7 +8,7 @@ import com.zachary.utli.BaseFragment.FragmentFactory;
 import com.zachary.utli.Util.ResourceUtil;
 
 /**
- * Created by Zachary on 2017-04-11.
+ * Created by Zachary on 2018-04-11.
  */
    public class BasePageAdapter extends FragmentPagerAdapter {
         private String[] titles;

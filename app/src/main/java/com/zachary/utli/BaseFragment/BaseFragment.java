@@ -15,7 +15,7 @@ import com.zachary.utli.Util.LogUtil;
 import butterknife.ButterKnife;
 
 /**
- * Created by Zachary on 2017-04-08.
+ * Created by Zachary on 2018-04-08.
  */
 public abstract class BaseFragment extends Fragment
 {
@@ -51,7 +51,6 @@ public abstract class BaseFragment extends Fragment
 
     /**
      * 设置根布局资源id
-     * @return
      */
     public abstract int getContentViewId();
 

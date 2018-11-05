@@ -5,7 +5,7 @@ import android.os.Handler;
 import org.greenrobot.eventbus.EventBus;
 
 /**
- * Created by Zachary on 2017-04-10.
+ * Created by Zachary on 2018-04-10.
  */
 public class EventBusUtil {
     private static final EventBus sEventBus = EventBus.builder()

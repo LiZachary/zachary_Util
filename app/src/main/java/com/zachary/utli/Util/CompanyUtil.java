@@ -7,14 +7,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Zachary on 2017-04-13.
+ * Created by Zachary on 2018-04-13.
  */
 public class CompanyUtil {
 
     private static CompanyUtil Instance =new CompanyUtil();
 
-    public  HashMap<String,String> Companymap=new HashMap<String,String>();
-    public  List<String> Companylist=new ArrayList<String>();
+    public  HashMap<String,String> Companymap = new HashMap<>();
+    public  List<String> Companylist = new ArrayList<>();
 
     private CompanyUtil(){
         getCampaniles();
@@ -112,7 +112,7 @@ public class CompanyUtil {
      * 由品牌名得到时效时间
      */
     public static String CaseSx(String brand,HashMap<String,String> map) {
-        String sx="";
+        String sx;
 
         switch (brand) {
             case "申通":

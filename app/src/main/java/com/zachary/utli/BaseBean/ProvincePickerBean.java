@@ -2,7 +2,7 @@ package com.zachary.utli.BaseBean;
 
 import com.bigkoo.pickerview.model.IPickerViewData;
 /**
- * Created by Zachary on 2017-05-02.
+ * Created by Zachary on 2018-05-02.
  */
 
 public class ProvincePickerBean implements IPickerViewData {

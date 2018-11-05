@@ -3,17 +3,17 @@ package com.zachary.utli.BaseBean;
 import org.litepal.crud.DataSupport;
 
 /**
- * Created by Zachary on 2017-04-18.
+ * Created by Zachary on 2018-04-18.
  */
 public class OrderInfoLitePal extends DataSupport {
 
 
-    int     id;
-    String  nu;
-    String  com;
-    String  state;
-    String  time;
-    boolean isselect;
+    private int     id;
+    private String  nu;
+    private String  com;
+    private String  state;
+    private String  time;
+    private boolean isselect;
 
     public int getId() {
         return id;

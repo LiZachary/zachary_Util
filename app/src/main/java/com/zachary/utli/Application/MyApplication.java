@@ -7,7 +7,7 @@ import com.zachary.utli.Util.SharePreferenceUtil;
 import org.litepal.LitePalApplication;
 
 /**
- * Created by Zachary on 2017-02-27.
+ * Created by Zachary on 2018-02-27.
  */
 
 public class MyApplication  extends LitePalApplication {

@@ -1,7 +1,7 @@
 package com.zachary.utli.BaseBean;
 
 /**
- * Created by Zachary on 2017-05-02.
+ * Created by Zachary on 2018-05-02.
  */
 public class OrderNetSiteBean {
 

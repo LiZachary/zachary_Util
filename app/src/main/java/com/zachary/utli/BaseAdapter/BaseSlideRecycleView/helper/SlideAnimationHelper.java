@@ -6,7 +6,7 @@ import android.animation.ValueAnimator.AnimatorUpdateListener;
 import android.content.Context;
 
 /**
- * Created by zhan on 2017/2/3.
+ * Created by zhan on 2018/2/3.
  */
 
 public class SlideAnimationHelper {

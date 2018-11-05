@@ -4,7 +4,7 @@ import android.widget.Toast;
 import com.zachary.utli.Application.MyApplication;
 
 /**
- * Created by Zachary on 2017-02-27.
+ * Created by Zachary on 2018-02-27.
  * 自定义Toast
  */
 public class ToastUtil {

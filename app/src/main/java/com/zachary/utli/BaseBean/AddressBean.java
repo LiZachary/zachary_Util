@@ -3,15 +3,15 @@ package com.zachary.utli.BaseBean;
 import org.litepal.crud.DataSupport;
 
 /**
- * Created by Zachary on 2017-05-04.
+ * Created by Zachary on 2018-05-04.
  */
 public class AddressBean extends DataSupport {
 
-    int id;
-    String name;
-    String phone;
-    String city;
-    String address;
+    private int id;
+    private String name;
+    private String phone;
+    private String city;
+    private String address;
 
     public int getId() {
         return id;

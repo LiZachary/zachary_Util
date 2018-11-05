@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Zachary on 2017-04-12.
+ * Created by Zachary on 2018-04-12.
  */
 public class BaseListAdapter<T,H extends BaseListAdapter.ViewHolder> extends BaseAdapter{
 private List<T> mData;

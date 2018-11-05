@@ -8,7 +8,7 @@ import com.zachary.utli.BaseAdapter.BaseSlideRecycleView.ISlide;
 import com.zachary.utli.BaseAdapter.BaseSlideRecycleView.helper.SlideAnimationHelper;
 
 /**
- * Created by zhan on 2017/2/6.
+ * Created by zhan on 2018/2/6.
  */
 
 public abstract class SlideViewHolder extends BaseViewHolder implements ISlide {

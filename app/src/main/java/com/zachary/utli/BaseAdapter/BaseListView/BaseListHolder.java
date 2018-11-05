@@ -4,7 +4,7 @@ import android.util.SparseArray;
 import android.view.View;
 
 /**
- * Created by Zachary on 2017-04-12.
+ * Created by Zachary on 2018-04-12.
  */
 public class BaseListHolder extends BaseListAdapter.ViewHolder{
     private SparseArray<View> mHolderViews;
