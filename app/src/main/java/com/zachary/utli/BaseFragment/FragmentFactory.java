@@ -2,7 +2,7 @@ package com.zachary.utli.BaseFragment;
 
 import android.support.v4.app.Fragment;
 
-import com.zachary.utli.Fragment.home.UI.FragmentFrist;
+import com.zachary.utli.Fragment.FragmentFrist;
 
 import java.util.ArrayList;
 import java.util.List;

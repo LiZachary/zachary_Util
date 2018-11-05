@@ -1,4 +1,4 @@
-package com.zachary.utli.Fragment.home.UI;
+package com.zachary.utli.Fragment;
 
 import android.app.Activity;
 import android.content.Intent;

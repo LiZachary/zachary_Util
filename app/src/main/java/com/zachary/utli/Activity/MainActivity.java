@@ -21,8 +21,7 @@ import com.zachary.utli.BaseActivity.ToolBarActivity;
 
 import com.zachary.utli.BaseAdapter.BaseListView.ViewCreator;
 import com.zachary.utli.BaseBean.SlideLeftBean;
-import com.zachary.utli.BaseEventBus.EventBusUtil;
-import com.zachary.utli.Fragment.home.UI.FragmentFrist;
+import com.zachary.utli.Fragment.FragmentFrist;
 import com.zachary.utli.R;
 import com.zachary.utli.Util.DialogUtil;
 import com.zachary.utli.Util.ResourceUtil;

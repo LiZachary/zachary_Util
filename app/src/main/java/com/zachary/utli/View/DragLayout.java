@@ -14,7 +14,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.nineoldandroids.view.ViewHelper;
+
 import com.zachary.utli.R;
 
 /**
@@ -290,11 +290,11 @@ public class DragLayout extends FrameLayout {
     private void animateView(float percent) {
         float f1 = 1 - percent * 0.5f;
 
-        ViewHelper.setTranslationX(vgLeft, -vgLeft.getWidth() / 2.5f + vgLeft.getWidth() / 2.5f * percent);
+        //ViewHelper.setTranslationX(vgLeft, -vgLeft.getWidth() / 2.5f + vgLeft.getWidth() / 2.5f * percent);
         if (IS_SHOW_SHADOW) {
             //阴影效果视图大小进行缩放
-            ViewHelper.setScaleX(ivShadow, f1 * 1.2f * (1 - percent * 0.10f));
-            ViewHelper.setScaleY(ivShadow, f1 * 1.85f * (1 - percent * 0.10f));
+//            ViewHelper.setScaleX(ivShadow, f1 * 1.2f * (1 - percent * 0.10f));
+//            ViewHelper.setScaleY(ivShadow, f1 * 1.85f * (1 - percent * 0.10f));
         }
     }
     /**
