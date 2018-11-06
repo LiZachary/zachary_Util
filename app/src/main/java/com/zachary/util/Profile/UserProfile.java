@@ -4,12 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.text.TextUtils;
 
-import com.fiberhome.site.Action.ActionCode;
-import com.fiberhome.site.Application.MyApplication;
-import com.fiberhome.site.Model.UserInfoBean;
-import com.fiberhome.site.Net.provider.ProviderPool;
-import com.fiberhome.site.Util.ObjectSaveUtil;
-import com.fiberhome.site.Util.PreferenceUtil;
+import com.zachary.util.Action.ActionCode;
+import com.zachary.util.Application.MyApplication;
+import com.zachary.util.Model.UserInfoBean;
+import com.zachary.util.Net.provider.ProviderPool;
+import com.zachary.util.Util.ObjectSaveUtil;
+import com.zachary.util.Util.PreferenceUtil;
 
 /**
  * 类描述：用户信息属性控制类
@@ -17,12 +17,15 @@ import com.fiberhome.site.Util.PreferenceUtil;
 public class UserProfile {
 
     private final String KEY_MOBILE_LAST = "moblie_last";
+    private final String KEY_PASSPORT = "user_passport";
+
     private final String KEY_GUID_LAST = "guid_last";
+    public final String KEY_TOKEN_LAST = "token_last";
+
     private final String KEY_PROJECT_CODE_LAST = "project_code_last";
     private final String KEY_PROJECT_NAME_LAST = "project_name_last";
+
     private final String KEY_HEAD_IMAGE_LAST = "head_image_last";
-    private final String KEY_PASSPORT = "user_passport";
-    public final String KEY_TOKEN_LAST = "token_last";
 
     private static UserProfile instance;
     private Context context;
@@ -177,7 +180,7 @@ public class UserProfile {
 
     //设置用户的信息，若userInfo为空，则SharePreference存储的数据删除
     public void setUserInfo(UserInfoBean userInfo) {
-        MyApplication.setOkhttpNull();
+        MyApplication.setOkHttpNull();
         if (null != userInfo) {
             if (!TextUtils.isEmpty(userInfo.getEmpId())) {
                 ProviderPool.getParamMap().put("userId", userInfo.getEmpId());
@@ -199,7 +202,7 @@ public class UserProfile {
     }
 
     public void setUserBean(UserInfoBean userInfo) {
-        MyApplication.setOkhttpNull();
+        MyApplication.setOkHttpNull();
         if (null != userInfo) {
 //            if (!TextUtils.isEmpty(userInfo.getGuid())) {
 //                ProviderPool.getParamMap().put("userId", userInfo.getGuid());
