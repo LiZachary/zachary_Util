@@ -1,21 +1,18 @@
-<com.zachary.utli.View.DragLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/dl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@android:color/transparent">
 
-    <!--下层 左边的布局-->
-    <include layout="@layout/left_view_layout"/>
-
-    <com.zachary.utli.View.CustomRelativeLayout
+    <RelativeLayout
         android:id="@+id/crl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/whitebg">
+        android:background="@color/white_bg">
 
-        <include layout="@layout/toolbar_layout"/>
-
+        <include layout="@layout/my_toolbar_layout"/>
 
         <!-- 底部tab -->
         <LinearLayout
@@ -121,6 +118,6 @@
             android:layout_above="@id/ll_bottom_tab"
             android:background="@android:color/holo_orange_light" />
 
-    </com.zachary.utli.View.CustomRelativeLayout>
+    </RelativeLayout>
 
-</com.zachary.utli.View.DragLayout>
+</LinearLayout>

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/toolbar_layout"/>
+    <include layout="@layout/my_toolbar_layout"/>
 
     <View
         android:id="@+id/v_clear_line1"
@@ -47,8 +47,8 @@
 
     <View
         android:layout_width="match_parent"
-    android:layout_height="2dp"
-    android:background="@color/line_3"
-    android:layout_below="@+id/ll_clear_imagecache"/>
+        android:layout_height="2dp"
+        android:background="@color/line_3"
+        android:layout_below="@+id/ll_clear_imagecache"/>
 
 </RelativeLayout>

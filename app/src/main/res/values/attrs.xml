@@ -15,9 +15,4 @@
         <attr name="oritation" format="boolean" />
     </declare-styleable>
 
-    <!--自定义圆头像-->
-    <declare-styleable name="RoundAngleImageView">
-        <attr name="roundWidth" format="dimension" />
-        <attr name="roundHeight" format="dimension" />
-    </declare-styleable>
 </resources>

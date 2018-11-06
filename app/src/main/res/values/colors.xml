@@ -3,8 +3,8 @@
     <!--标准颜色-->
     <color name="red">#FF0000</color>
     <color name="black">#000000</color>
-    <color name="whitetext">#FFFFFF</color><!--白天白色字体即为白色-->
-    <color name="whitebg">#FFFFFF</color><!--白天白色背景即为白色-->
+    <color name="white_text">#FFFFFF</color><!--白天白色字体即为白色-->
+    <color name="white_bg">#FFFFFF</color><!--白天白色背景即为白色-->
     <color name="lv_click_color">#77AAAAAA</color>
 
     <!--天蓝色-->

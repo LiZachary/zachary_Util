@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/toolbar"
+    android:background="@color/colorTheme">
+
+    <ImageView
+        android:id="@+id/icon_left"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+
+        android:padding="2dp" />
+
+    <TextView
+        android:id="@+id/text_context"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:text="智慧工地"
+        android:textColor="@color/white_text"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/icon_right"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:layout_centerVertical="true"
+        android:padding="2dp" />
+
+</RelativeLayout>
