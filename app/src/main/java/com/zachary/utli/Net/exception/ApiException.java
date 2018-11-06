@@ -3,7 +3,7 @@ package com.zachary.utli.Net.exception;
  *
  * Created on 2016/9/8 14:11
  * @desc 异常处理
- * @auther Aric
+ * @auther Zachary
  */
 public class ApiException extends RuntimeException {
 

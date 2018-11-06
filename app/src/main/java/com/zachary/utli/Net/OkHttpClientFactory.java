@@ -16,7 +16,7 @@ import okhttp3.Cache;
 import okhttp3.OkHttpClient;
 
 /**
- * Created by Administrator on 2015/10/29.
+ * Created by zachary on 2018/10/29.
  */
 public class OkHttpClientFactory {
 
@@ -87,7 +87,7 @@ public class OkHttpClientFactory {
                 DEBUG = buildConfigField.getBoolean(null);
             } catch (final Throwable t) {
                 final String message = t.getMessage();
-                packageName = "com.aric.net";
+                packageName = "com.zachary.util";
                 if (message != null && message.contains("BuildConfig")) {
                     // Proguard obfuscated build. Most likely a production build.
                     DEBUG = false;

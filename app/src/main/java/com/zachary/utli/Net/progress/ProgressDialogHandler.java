@@ -13,7 +13,7 @@ import com.zachary.utli.R;
  *
  * Created on 2016/9/8 14:09
  * @desc 网络请求时的dialog处理
- * @auther Aric
+ * @auther Zachary
  */
 public class ProgressDialogHandler extends Handler {
 

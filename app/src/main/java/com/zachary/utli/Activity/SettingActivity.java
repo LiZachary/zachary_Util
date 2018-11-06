@@ -6,7 +6,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.zachary.utli.BaseActivity.ToolBarActivity;
-import com.zachary.utli.BaseEventBus.EventBusUtil;
 import com.zachary.utli.R;
 import com.zachary.utli.Util.GlideUtil;
 
@@ -52,13 +51,11 @@ public class SettingActivity extends ToolBarActivity {
     @Override
     public void onStart() {
         super.onStart();
-        EventBusUtil.register(this);
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        EventBusUtil.unregister(this);
     }
 
 }
