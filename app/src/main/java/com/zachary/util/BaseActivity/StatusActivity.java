@@ -10,7 +10,7 @@ import com.zachary.util.R;
 
 import java.lang.reflect.Field;
 
-public abstract class statusActivity extends superActivity {
+public abstract class StatusActivity extends SuperActivity {
 
 
     private View statusView;

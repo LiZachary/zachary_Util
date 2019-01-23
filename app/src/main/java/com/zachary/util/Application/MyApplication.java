@@ -5,26 +5,20 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
-
-import com.amitshekhar.DebugDB;
 import com.zachary.util.Model.UserInfoBean;
 import com.zachary.util.Net.RetrofitSingleton;
 import com.zachary.util.Net.http.OkHttpApi;
 import com.zachary.util.Net.provider.ProviderPool;
 import com.zachary.util.Profile.UserProfile;
 import com.zachary.util.Util.DeviceUtil;
-import com.zachary.util.Util.LogUtil;
 import com.zachary.util.Util.SharePreferenceUtil;
-
 import org.litepal.LitePalApplication;
-
 import java.util.Map;
 
 /**
  * Created by Zachary on 2018-02-27.
  * Application
  */
-
 public class MyApplication extends LitePalApplication {
 
     protected static MyApplication instance;
@@ -36,7 +30,7 @@ public class MyApplication extends LitePalApplication {
         super.onCreate();
         instance =this;
 
-        LogUtil.e(DebugDB.getAddressLog());
+        //LogUtil.e(DebugDB.getAddressLog());
 
         SharePreferenceUtil.initSharePreferenceUtil(getApplicationContext());
         initHeaderInfo();

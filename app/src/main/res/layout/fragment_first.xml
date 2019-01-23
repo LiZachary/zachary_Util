@@ -14,6 +14,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorTheme">
+        <Button
+            android:id="@+id/btn_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点我"/>
 
     </RelativeLayout>
 

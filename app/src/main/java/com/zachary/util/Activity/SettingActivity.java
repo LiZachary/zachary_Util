@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.zachary.util.BaseActivity.superActivity;
+import com.zachary.util.BaseActivity.SuperActivity;
 import com.zachary.util.R;
 import com.zachary.util.Util.GlideUtil;
 
@@ -15,7 +15,7 @@ import butterknife.OnClick;
 /**
  * @author Zachary
  */
-public class SettingActivity extends superActivity {
+public class SettingActivity extends SuperActivity {
 
     @BindView(R.id.ll_clear_imagecache)
     LinearLayout llClearImagecache;

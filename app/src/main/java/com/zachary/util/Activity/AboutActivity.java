@@ -2,7 +2,7 @@ package com.zachary.util.Activity;
 
 import android.os.Bundle;
 import android.widget.TextView;
-import com.zachary.util.BaseActivity.superActivity;
+import com.zachary.util.BaseActivity.SuperActivity;
 import com.zachary.util.R;
 import com.zachary.util.Util.DialogUtil;
 import com.zachary.util.Util.ResourceUtil;
@@ -13,7 +13,7 @@ import butterknife.OnClick;
 /**
  * @author Zachary
  */
-public class AboutActivity extends superActivity {
+public class AboutActivity extends SuperActivity {
 
     @BindView(R.id.tv_activity_about_licenses)
     TextView tvActivityAboutLicenses;

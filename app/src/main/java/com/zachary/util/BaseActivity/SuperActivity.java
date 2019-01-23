@@ -10,7 +10,7 @@ import com.zachary.util.Util.LogUtil;
 import com.zachary.util.Util.SharePreferenceUtil;
 import butterknife.ButterKnife;
 
-public abstract class superActivity extends AppCompatActivity {
+public abstract class SuperActivity extends AppCompatActivity {
 
     protected  boolean enableNightMode ;
     private int width;

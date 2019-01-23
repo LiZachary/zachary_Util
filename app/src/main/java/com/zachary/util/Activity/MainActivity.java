@@ -5,13 +5,15 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import com.zachary.util.BaseActivity.superActivity;
+import com.zachary.util.BaseActivity.SuperActivity;
 import com.zachary.util.Fragment.FragmentFrist;
 import com.zachary.util.R;
 
@@ -22,7 +24,7 @@ import butterknife.OnClick;
  * @author Zachary
  * 首页，嵌套三个Fragment
  */
-public class MainActivity extends superActivity {
+public class MainActivity extends SuperActivity {
 
     //首页头部布局
     @BindView(R.id.icon_left)
@@ -231,6 +233,27 @@ public class MainActivity extends superActivity {
     @Override
     public void onDestroy() {
         super.onDestroy();
+    }
+
+    //声明一个long类型变量：用于存放上一点击“返回键”的时刻
+    private long mExitTime;
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        //判断用户是否点击了“返回键”
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            //与上次点击返回键时刻作差
+            if ((System.currentTimeMillis() - mExitTime) > 2000) {
+                //大于2000ms则认为是误操作，使用Toast进行提示
+                Toast.makeText(this, "再按一次退出程序", Toast.LENGTH_SHORT).show();
+                //并记录下本次点击“返回键”的时刻，以便下次进行判断
+                mExitTime = System.currentTimeMillis();
+            } else {
+                //小于2000ms则认为是用户确实希望退出程序-调用System.exit()方法进行退出
+                System.exit(0);
+            }
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 
 
