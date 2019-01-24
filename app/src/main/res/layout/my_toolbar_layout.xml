@@ -16,7 +16,6 @@
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="15dp"
-
         android:padding="2dp" />
 
     <TextView
@@ -29,8 +28,8 @@
         android:gravity="center"
         android:paddingLeft="11dp"
         android:paddingRight="11dp"
-        android:text="智慧工地"
-        android:textColor="@color/white_text"
+        android:text="zachary"
+        android:textColor="@color/white"
         android:textSize="18sp" />
 
     <ImageView

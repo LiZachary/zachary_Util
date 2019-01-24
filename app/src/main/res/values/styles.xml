@@ -7,9 +7,10 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorSecondary">@color/whitetext</item>
+        <item name="android:textColorSecondary">@color/white</item>
         <item name="actionOverflowMenuStyle">@style/MenuStyle</item>
     </style>
+
 
     <style name="MenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
         <item name="overlapAnchor">false</item><!--把该属性改为false即可使menu位置位于toolbar之下-->
@@ -18,7 +19,7 @@
         <!--弹出菜单与标题栏的垂直间距-->
         <item name="android:dropDownVerticalOffset">10.0dip</item>
         <!--menu菜单的字体颜色-->
-        <item name="android:textColorPrimary">@color/whitetext</item>
+        <item name="android:textColorPrimary">@color/white</item>
         <!--menu字体大小-->
         <item name="android:textSize">18sp</item>
     </style>

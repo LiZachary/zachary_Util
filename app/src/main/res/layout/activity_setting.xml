@@ -9,7 +9,7 @@
         android:id="@+id/v_clear_line1"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:background="@color/whitetext"
+        android:background="@color/white"
         android:layout_below="@+id/toolbar"/>
 
     <LinearLayout
@@ -17,7 +17,7 @@
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:layout_below="@+id/v_clear_line1"
-    android:background="@color/whitebg"
+    android:background="@color/white"
     android:orientation="horizontal">
 
     <TextView

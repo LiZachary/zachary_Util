@@ -19,12 +19,13 @@ import com.zachary.util.R;
 
 import butterknife.BindView;
 import butterknife.OnClick;
+import me.jessyan.autosize.internal.CustomAdapt;
 
 /**
  * @author Zachary
  * 首页，嵌套三个Fragment
  */
-public class MainActivity extends SuperActivity {
+public class MainActivity extends SuperActivity implements CustomAdapt {
 
     //首页头部布局
     @BindView(R.id.icon_left)
@@ -257,5 +258,14 @@ public class MainActivity extends SuperActivity {
     }
 
 
+    @Override
+    public boolean isBaseOnWidth() {
+        return false;
+    }
+
+    @Override
+    public float getSizeInDp() {
+        return 600;
+    }
 }
 
